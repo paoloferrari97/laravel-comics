@@ -46,9 +46,7 @@
     {{-- /sezione bianca --}}
 
     {{-- sezione jumbotron --}}
-    <div class="jumbotron">
-        <img src="{{asset('img/jumbotron.jpg')}}" alt="jumbotron">
-    </div>
+    <div class="jumbotron"></div>
     {{-- /sezione jumbotron --}}
 
 </header>

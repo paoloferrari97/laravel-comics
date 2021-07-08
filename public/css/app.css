@@ -105,7 +105,9 @@ header .sezione_bianca .container .active > div {
 
 header .jumbotron {
   height: 300px;
-  /* background-image: url("../img/jumbotron.jpg"); */
+  background-image: url("/../img/jumbotron.jpg");
+  background-repeat: no-repeat;
+  background-size: cover;
 }
 
 header .jumbotron img {
