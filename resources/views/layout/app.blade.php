@@ -27,16 +27,16 @@
     <div class="sezione_bianca">
         <div class="container">
             <img src="{{asset('img/dc-logo.png')}}" alt="DC logo">
-            <a href="" class="{{Route::currentRouteName() === 'Characters' ? 'active' : ''}}">CHARACTERS<div></div></a>
-            <a href="" class="{{Route::currentRouteName() === 'Comics' ? 'active' : ''}}">COMICS<div></div></a>
-            <a href="" class="{{Route::currentRouteName() === 'Movies' ? 'active' : ''}}">MOVIES<div></div></a>
-            <a href="" class="{{Route::currentRouteName() === 'Tv' ? 'active' : ''}}">TV<div></div></a>
-            <a href="" class="{{Route::currentRouteName() === 'Games' ? 'active' : ''}}">GAMES<div></div></a>
-            <a href="" class="{{Route::currentRouteName() === 'Collectibles' ? 'active' : ''}}">COLLECTIBLES<div></div></a>
-            <a href="" class="{{Route::currentRouteName() === 'Videos' ? 'active' : ''}}">VIDEOS<div></div></a>
-            <a href="" class="{{Route::currentRouteName() === 'Fans' ? 'active' : ''}}">FANS<div></div></a>
-            <a href="" class="{{Route::currentRouteName() === 'News' ? 'active' : ''}}">NEWS<div></div></a>
-            <a href="" class="{{Route::currentRouteName() === 'Shop' ? 'active' : ''}}">SHOP<i class="fas fa-caret-down"></i><div></div></a>
+            <a href="{{-- {{route('Characters')}} --}}" class="{{Route::currentRouteName() === 'Characters' ? 'active' : ''}}">CHARACTERS<div></div></a>
+            <a href="{{route('Comics')}}" class="{{Route::currentRouteName() === 'Comics' ? 'active' : ''}}">COMICS<div></div></a>
+            <a href="{{-- {{route('Movies')}} --}}" class="{{Route::currentRouteName() === 'Movies' ? 'active' : ''}}">MOVIES<div></div></a>
+            <a href="{{-- {{route('Tv')}} --}}" class="{{Route::currentRouteName() === 'Tv' ? 'active' : ''}}">TV<div></div></a>
+            <a href="{{-- {{route('Games')}} --}}" class="{{Route::currentRouteName() === 'Games' ? 'active' : ''}}">GAMES<div></div></a>
+            <a href="{{-- {{route('Collectibles')}} --}}" class="{{Route::currentRouteName() === 'Collectibles' ? 'active' : ''}}">COLLECTIBLES<div></div></a>
+            <a href="{{-- {{route('Videos')}} --}}" class="{{Route::currentRouteName() === 'Videos' ? 'active' : ''}}">VIDEOS<div></div></a>
+            <a href="{{-- {{route('Fans')}} --}}" class="{{Route::currentRouteName() === 'Fans' ? 'active' : ''}}">FANS<div></div></a>
+            <a href="{{-- {{route('News')}} --}}" class="{{Route::currentRouteName() === 'News' ? 'active' : ''}}">NEWS<div></div></a>
+            <a href="{{-- {{route('Shop')}} --}}" class="{{Route::currentRouteName() === 'Shop' ? 'active' : ''}}">SHOP<i class="fas fa-caret-down"></i><div></div></a>
             <div>
                 <input type="text" id="search" name="search" placeholder="Search">
                 <i class="fas fa-search"></i>

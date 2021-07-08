@@ -16,7 +16,6 @@ body {
 header .sezione_blu {
   background-color: #0282f9;
 }
-
 header .sezione_blu .container {
   color: white;
   font-size: 15px;
@@ -25,28 +24,23 @@ header .sezione_blu .container {
   justify-content: flex-end;
   align-items: center;
 }
-
 header .sezione_blu .container i {
   font-size: 12px;
 }
-
 header .sezione_blu .container span {
   margin-left: 40px;
   display: flex;
   align-items: center;
 }
-
 header .sezione_bianca {
   height: 150px;
 }
-
 header .sezione_bianca .container {
   height: 100%;
   display: flex;
   align-items: center;
   justify-content: space-between;
 }
-
 header .sezione_bianca .container a {
   font-weight: 600;
   text-decoration: none;
@@ -55,46 +49,38 @@ header .sezione_bianca .container a {
   display: flex;
   align-items: center;
 }
-
 header .sezione_bianca .container a i {
   color: #0282f9;
 }
-
 header .sezione_bianca .container > div {
   border-bottom: 2px solid #0282f9;
 }
-
 header .sezione_bianca .container > div input {
   border: 0;
   outline: 0;
 }
-
 header .sezione_bianca .container > div input::-moz-placeholder {
   color: black;
   font-weight: 600;
   font-size: 17px;
   padding-left: 60%;
 }
-
 header .sezione_bianca .container > div input:-ms-input-placeholder {
   color: black;
   font-weight: 600;
   font-size: 17px;
   padding-left: 60%;
 }
-
 header .sezione_bianca .container > div input::placeholder {
   color: black;
   font-weight: 600;
   font-size: 17px;
   padding-left: 60%;
 }
-
 header .sezione_bianca .container .active {
   color: #0282f9;
   position: relative;
 }
-
 header .sezione_bianca .container .active > div {
   background-color: #0282f9;
   width: 100%;
@@ -102,14 +88,12 @@ header .sezione_bianca .container .active > div {
   position: absolute;
   bottom: 0;
 }
-
 header .jumbotron {
   height: 300px;
   background-image: url("/../img/jumbotron.jpg");
   background-repeat: no-repeat;
   background-size: cover;
 }
-
 header .jumbotron img {
   max-height: 300px;
   width: 100%;
@@ -118,85 +102,71 @@ header .jumbotron img {
 footer .prima_sez_footer {
   height: 300px;
   background-image: url("/../img/footer-bg.jpg");
+  background-repeat: no-repeat;
+  background-size: cover;
 }
-
 footer .prima_sez_footer .container {
   height: 100%;
   display: flex;
 }
-
 footer .prima_sez_footer .container > div:first-child {
   padding: 15px 0;
 }
-
 footer .prima_sez_footer .container > div {
   width: 50%;
   height: 100%;
 }
-
 footer .prima_sez_footer .container > div > div {
   display: flex;
   color: grey;
   font-size: 13px;
 }
-
 footer .prima_sez_footer .container > div > div > div {
   display: flex;
   flex-direction: column;
   margin-right: 20px;
 }
-
 footer .prima_sez_footer .container > div > div > div h3 {
   color: white;
   margin: 10px 0;
 }
-
 footer .prima_sez_footer .container > div > div > div span {
   color: grey;
 }
-
 footer .prima_sez_footer .container > div > div:nth-child(2) {
   margin-top: 10px;
 }
-
 footer .prima_sez_footer .container > div > div:nth-child(2) > span > span {
   color: #0282f9;
 }
-
 footer .prima_sez_footer .container > div:nth-child(2) {
   background-image: url("/../img/dc-logo-bg.png");
   background-position: center;
   background-repeat: no-repeat;
   background-size: 400px;
 }
-
 footer .seconda_sez_footer {
   background-color: #303030;
   height: 100px;
 }
-
 footer .seconda_sez_footer .container {
   height: 100%;
   display: flex;
   justify-content: space-between;
   align-items: center;
 }
-
 footer .seconda_sez_footer .container > div {
   display: flex;
   align-items: center;
 }
-
 footer .seconda_sez_footer .container > div img {
   margin-left: 15px;
 }
-
 footer .seconda_sez_footer .container > div span {
   font-size: 18px;
   font-weight: 600;
   color: #0282f9;
 }
-
 footer .seconda_sez_footer .container > a {
   color: white;
   font-size: 18px;
@@ -209,7 +179,6 @@ footer .seconda_sez_footer .container > a {
   background-color: black;
   color: white;
 }
-
 .comics .container .current_series {
   background-color: #0282f9;
   padding: 15px 30px;
@@ -219,70 +188,57 @@ footer .seconda_sez_footer .container > a {
   position: relative;
   transform: translateY(-50%);
 }
-
 .comics .container .cards {
   display: flex;
   flex-wrap: wrap;
   justify-content: space-between;
 }
-
 .comics .container .cards .card {
   width: 170px;
   margin: 10px 0;
 }
-
 .comics .container .cards .card > div:first-child {
   width: 170px;
   height: 170px;
   overflow: hidden;
 }
-
 .comics .container .cards .card > div:first-child img {
   width: 100%;
 }
-
 .comics .container .cards .card > div:nth-child(2) {
   margin-top: 10px;
   font-size: 15px;
   text-transform: uppercase;
 }
-
 .comics .container > div:nth-child(3) {
   display: flex;
   justify-content: center;
   align-items: center;
 }
-
 .comics .container > div:nth-child(3) > span.load_more {
   background-color: #0282f9;
   padding: 10px 30px;
   font-size: 13px;
   margin: 13px 0;
 }
-
 .comics .barra_blu {
   background-color: #0282f9;
   padding: 30px 0;
 }
-
 .comics .barra_blu .container {
   display: flex;
   align-items: center;
   justify-content: space-around;
 }
-
 .comics .barra_blu .container div {
   display: flex;
   align-items: center;
   justify-content: space-between;
 }
-
 .comics .barra_blu .container div img {
   height: 40px;
   margin-right: 10px;
 }
-
 .comics .barra_blu .container div span {
   font-size: 12px;
 }
-
