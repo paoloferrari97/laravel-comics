@@ -61,7 +61,71 @@
 {{-- main --}}
 
 {{-- footer --}}
-<footer></footer>
+<footer>
+
+    {{-- prima sezione --}}
+    <div class="prima_sez_footer">
+        <div class="container">
+            <div>
+                <div>
+                    <div>
+                        <h3>DC COMICS</h3>
+                        <span>Characters</span>
+                        <span>Comics</span>
+                        <span>Movies</span>
+                        <span>TV</span>
+                        <span>Games</span>
+                        <span>Videos</span>
+                        <span>News</span>
+                        <h3>SHOP</h3>
+                        <span>Shop DC</span>
+                        <span>Shop DC Collectibles</span>
+    
+                    </div>
+                    <div>
+                        <h3>DC</h3>
+                        <span>Terms Of Use</span>
+                        <span>Privacy Policy (New)</span>
+                        <span>Ad Choices</span>
+                        <span>Advertising</span>
+                        <span>Jobs</span>
+                        <span>Subscriptions</span>
+                        <span>Talent Workshops</span>
+                        <span>CPSC Certificates</span>
+                        <span>Ratings</span>
+                        <span>Shop Help</span>
+                        <span>Contact Us</span>
+                    </div>
+                    <div>
+                        <h3>SITES</h3>
+                        <span>DC</span>
+                        <span>MAD Magazine</span>
+                        <span>DC Kids</span>
+                        <span>DC Universe</span>
+                        <span>DC Power Visa</span>
+                        
+                    </div>
+                </div>
+                <div>
+                    <span>
+                        All Site Content TM and <i class="far fa-copyright"></i> 2020 DC Entertainment, unless otherwise <span>noted here</span>. All right reserved.<br><span>Cookies Settings</span> 
+                    </span>
+                </div>
+            </div>
+            <div></div>
+        </div>
+    </div>
+    {{-- /prima sezione --}}
+
+    {{-- seconda sezione --}}
+    <div class="seconda_sez_footer">
+        <div class="container">
+            
+        </div>
+    </div>
+    {{-- /seconda sezione --}}
+
+</footer>
 {{-- footer --}}
 
 </body>

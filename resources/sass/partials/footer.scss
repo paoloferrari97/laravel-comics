@@ -1,0 +1,47 @@
+footer {
+    .prima_sez_footer {
+        height: 300px;
+        /* background-image: url("../img/footer-bg.jpg"); */
+        background-color: pink;
+        .container {
+            height: 100%;
+            display: flex;
+            > div {
+                width: 50%;
+                height: 100%;
+                > div {
+                    display: flex;
+                    color: grey;
+                    font-size: 13px;
+                    > div {
+                        display: flex;
+                        flex-direction: column;
+                        margin-right: 20px;
+                        h3 {
+                            color: white;
+                            margin: 10px 0;
+                        }
+                        span {
+                            color: grey;
+                        }
+                    }
+                }
+                > div:nth-child(2) {
+                    margin-top: 10px;
+                    > span {
+                        > span {
+                            color: blue;
+                        }
+                    }
+                }
+            }
+            > div:nth-child(2) {
+                /* background-image: url("../img/dc-logo-bg.png"); */
+            }
+        }
+    }
+    .seconda_sez_footer {
+        background-color: #303030;
+        height: 100px;
+    }
+}
