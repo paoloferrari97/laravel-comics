@@ -1,0 +1,115 @@
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  font-family: sans-serif;
+}
+
+.container {
+  width: 80%;
+  margin: auto;
+}
+
+header .sezione_blu {
+  background-color: #0282f9;
+}
+
+header .sezione_blu .container {
+  color: white;
+  font-size: 15px;
+  padding: 10px 0;
+  display: flex;
+  justify-content: flex-end;
+  align-items: center;
+}
+
+header .sezione_blu .container i {
+  font-size: 12px;
+}
+
+header .sezione_blu .container span {
+  margin-left: 40px;
+  display: flex;
+  align-items: center;
+}
+
+header .sezione_bianca {
+  height: 150px;
+}
+
+header .sezione_bianca .container {
+  height: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+header .sezione_bianca .container a {
+  font-weight: 600;
+  text-decoration: none;
+  color: black;
+  height: 100%;
+  display: flex;
+  align-items: center;
+}
+
+header .sezione_bianca .container a i {
+  color: #0282f9;
+}
+
+header .sezione_bianca .container > div {
+  border-bottom: 2px solid #0282f9;
+}
+
+header .sezione_bianca .container > div input {
+  border: 0;
+  outline: 0;
+}
+
+header .sezione_bianca .container > div input::-moz-placeholder {
+  color: black;
+  font-weight: 600;
+  font-size: 17px;
+  padding-left: 60%;
+}
+
+header .sezione_bianca .container > div input:-ms-input-placeholder {
+  color: black;
+  font-weight: 600;
+  font-size: 17px;
+  padding-left: 60%;
+}
+
+header .sezione_bianca .container > div input::placeholder {
+  color: black;
+  font-weight: 600;
+  font-size: 17px;
+  padding-left: 60%;
+}
+
+header .sezione_bianca .container .active {
+  color: #0282f9;
+  position: relative;
+}
+
+header .sezione_bianca .container .active > div {
+  background-color: #0282f9;
+  width: 100%;
+  height: 5px;
+  position: absolute;
+  bottom: 0;
+}
+
+header .jumbotron {
+  height: 300px;
+  /* background-image: url("../img/jumbotron.jpg"); */
+}
+
+header .jumbotron img {
+  max-height: 300px;
+  width: 100%;
+}
+
