@@ -155,7 +155,7 @@ footer .prima_sez_footer .container > div > div:nth-child(2) {
 }
 
 footer .prima_sez_footer .container > div > div:nth-child(2) > span > span {
-  color: blue;
+  color: #0282f9;
 }
 
 footer .prima_sez_footer .container > div:nth-child(2) {
@@ -165,5 +165,35 @@ footer .prima_sez_footer .container > div:nth-child(2) {
 footer .seconda_sez_footer {
   background-color: #303030;
   height: 100px;
+}
+
+footer .seconda_sez_footer .container {
+  height: 100%;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+footer .seconda_sez_footer .container > div {
+  display: flex;
+  align-items: center;
+}
+
+footer .seconda_sez_footer .container > div img {
+  margin-left: 15px;
+}
+
+footer .seconda_sez_footer .container > div span {
+  font-size: 18px;
+  font-weight: 600;
+  color: #0282f9;
+}
+
+footer .seconda_sez_footer .container > a {
+  color: white;
+  font-size: 18px;
+  text-decoration: none;
+  border: 2px solid #0282f9;
+  padding: 13px 10px;
 }
 

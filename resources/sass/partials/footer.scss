@@ -30,7 +30,7 @@ footer {
                     margin-top: 10px;
                     > span {
                         > span {
-                            color: blue;
+                            color: #0282f9;
                         }
                     }
                 }
@@ -43,5 +43,31 @@ footer {
     .seconda_sez_footer {
         background-color: #303030;
         height: 100px;
+        .container {
+            height: 100%;
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+
+            > div {
+                display: flex;
+                align-items: center;
+                img {
+                    margin-left: 15px;
+                }
+                span {
+                    font-size: 18px;
+                    font-weight: 600;
+                    color: #0282f9;
+                }
+            }
+            > a {
+                color: white;
+                font-size: 18px;
+                text-decoration: none;
+                border: 2px solid #0282f9;
+                padding: 13px 10px;
+            }
+        }
     }
 }

@@ -120,7 +120,15 @@
     {{-- seconda sezione --}}
     <div class="seconda_sez_footer">
         <div class="container">
-            
+            <a href="#">SIGN-UP NOW!</a>
+            <div>
+                <span>FOLLOW US</span>
+                <img src="{{asset('img/footer-facebook.png')}}" alt="facebook">
+                <img src="{{asset('img/footer-twitter.png')}}" alt="twitter">
+                <img src="{{asset('img/footer-youtube.png')}}" alt="youtube">
+                <img src="{{asset('img/footer-pinterest.png')}}" alt="pinterest">
+                <img src="{{asset('img/footer-periscope.png')}}" alt="periscope">
+            </div>
         </div>
     </div>
     {{-- /seconda sezione --}}
