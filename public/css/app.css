@@ -197,3 +197,18 @@ footer .seconda_sez_footer .container > a {
   padding: 13px 10px;
 }
 
+.comics {
+  background-color: black;
+  color: white;
+}
+
+.comics .container .current_series {
+  background-color: #0282f9;
+  padding: 15px 30px;
+  display: inline-block;
+  font-weight: 600;
+  font-size: 20px;
+  position: relative;
+  transform: translateY(-50%);
+}
+
