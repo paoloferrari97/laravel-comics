@@ -252,3 +252,29 @@ footer .seconda_sez_footer .container > a {
   margin: 13px 0;
 }
 
+.comics .barra_blu {
+  background-color: #0282f9;
+  padding: 30px 0;
+}
+
+.comics .barra_blu .container {
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+}
+
+.comics .barra_blu .container div {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.comics .barra_blu .container div img {
+  height: 40px;
+  margin-right: 10px;
+}
+
+.comics .barra_blu .container div span {
+  font-size: 12px;
+}
+
