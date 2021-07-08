@@ -245,7 +245,7 @@ footer .seconda_sez_footer .container > a {
   align-items: center;
 }
 
-.comics .container > div:nth-child(3) > span {
+.comics .container > div:nth-child(3) > span.load_more {
   background-color: #0282f9;
   padding: 10px 30px;
   font-size: 13px;

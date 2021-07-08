@@ -19,7 +19,7 @@
         </div>
 
         <div>
-            <span>LOAD MORE</span>
+            <span class="load_more">LOAD MORE</span>
         </div>
 
     </div>
