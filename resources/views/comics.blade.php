@@ -12,7 +12,7 @@
                     <img src="{{$comic['thumb']}}" alt="Copertina Comic">
                 </div>
                 <div>
-                    {{$comic['title']}}
+                    {{$comic['series']}}
                 </div>
             </div>    
             @endforeach
