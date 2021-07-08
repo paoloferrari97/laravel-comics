@@ -18,6 +18,10 @@
             @endforeach
         </div>
 
+        <div>
+            <span>LOAD MORE</span>
+        </div>
+
     </div>
 </div>
 @endsection

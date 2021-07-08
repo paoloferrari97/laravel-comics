@@ -29,7 +29,19 @@
                 > div:nth-child(2) {
                     margin-top: 10px;
                     font-size: 15px;
+                    text-transform: uppercase;
                 }
+            }
+        }
+        > div:nth-child(3) {
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            > span {
+                background-color: #0282f9;
+                padding: 10px 30px;
+                font-size: 13px;
+                margin: 13px 0;
             }
         }
     }
