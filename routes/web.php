@@ -104,3 +104,20 @@ Route::get('/shop', function () {
 
     return view('shop', $data);
 })->name('Shop');
+
+Route::get('/comics/{id}', function ($id) {
+
+    $menu = config('comics.menu');
+    $data = [
+        'menu' => $menu
+    ];
+
+    $comics = config('comics.data');
+
+    if (is_numeric($id) && $id < count($comics) && $id >= 0) {
+        $comic = $comics[$id];
+        return view('comics.show', $data, compact('comic'));
+    } else {
+        abort(404);
+    }
+})->name('Comic');
