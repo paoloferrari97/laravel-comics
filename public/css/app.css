@@ -313,3 +313,9 @@ footer .seconda_sez_footer .container > a {
   background-color: #55ba59;
   padding: 15px 35px;
 }
+
+.description {
+  margin-top: 30px;
+  font-size: 15px;
+  width: 700px;
+}

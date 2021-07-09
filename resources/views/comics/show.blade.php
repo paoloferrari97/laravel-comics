@@ -24,6 +24,10 @@
                 Check Availability <i class="fas fa-caret-down"></i>
             </div>
         </div>
+        
+        <p class="description">
+            {{$comic['description']}}
+        </p>
     </div>
 </div>
 
