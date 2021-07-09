@@ -247,3 +247,38 @@ footer .seconda_sez_footer .container > a {
 .comics .barra_blu .container div span {
   font-size: 12px;
 }
+
+.sez_blu_comic {
+  background-color: #0282f9;
+  height: 70px;
+}
+.sez_blu_comic .container2 {
+  width: 60%;
+  margin: auto;
+}
+.sez_blu_comic .container2 > div {
+  display: inline-block;
+  position: relative;
+  bottom: calc(291px - 45px);
+  border: 1px solid white;
+}
+.sez_blu_comic .container2 > div .comic_book {
+  position: absolute;
+  top: 0;
+  left: 0;
+  text-align: center;
+  color: white;
+  background-color: #00a9dc;
+  font-size: 13px;
+  padding: 3px 6px;
+}
+.sez_blu_comic .container2 > div .view_gallery {
+  position: absolute;
+  bottom: 0;
+  width: 100%;
+  text-align: center;
+  color: white;
+  background-color: #00a9dc;
+  font-size: 13px;
+  padding: 3px 0;
+}
