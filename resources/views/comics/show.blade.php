@@ -35,4 +35,46 @@
     </div>
 </div>
 
+<div class="sez_grigia_comic">
+    <div class="container2">
+        <div class="talent_specs">
+            <div>
+                <h3>Talent</h3>
+                <div>
+                    <span class="first">Art by:</span>
+                    <span>
+                        @foreach ($comic['artists'] as $item)
+                            <span style="color: #00a9dc">{{$item}}</span>@if (!$loop->last), @endif
+                        @endforeach
+                    </span>
+                </div>
+                <div>
+                    <span class="first">Written by:</span>
+                    <span>
+                        @foreach ($comic['writers'] as $item)
+                            <span style="color: #00a9dc">{{$item}}</span>@if (!$loop->last), @endif
+                        @endforeach
+                    </span>
+                </div>
+            </div>
+            <div>
+                <h3>Specs</h3>
+                <div>
+                    <span class="first">Series:</span>
+                    <span class="series">{{$comic['series']}}</span>
+                </div>
+                <div>
+                    <span class="first">U.S. Price:</span>
+                    <span>{{$comic['price']}}</span>
+                </div>
+                <div>
+                    <span class="first">On Sale Date:</span>
+                    <span>{{$comic['sale_date']}}</span>
+                </div>
+            </div>
+        </div>
+        <div class="icone"></div>
+    </div>
+</div>
+
 @endsection

@@ -69,11 +69,46 @@
                 padding: 15px 35px;
             }
         }
+        .description {
+            margin-top: 30px;
+            font-size: 15px;
+            width: 700px;
+            margin-bottom: 50px;
+        }
     }
 }
 
-.description {
-    margin-top: 30px;
-    font-size: 15px;
-    width: 700px;
+.sez_grigia_comic {
+    background-color: #f6f6f6;
+    padding-top: 30px;
+    .container2 {
+        .talent_specs {
+            display: flex;
+            justify-content: space-between;
+            > div {
+                width: 45%;
+                h3 {
+                    margin-bottom: 20px;
+                }
+                > div {
+                    border-top: 1px solid lightgray;
+                    display: flex;
+                    padding: 20px 0;
+                    &:last-child {
+                        border-bottom: 1px solid lightgray;
+                    }
+                    .series {
+                        color: #00a9dc;
+                        text-transform: uppercase;
+                    }
+                    > span {
+                        font-size: 15px;
+                    }
+                    .first {
+                        width: 250px;
+                    }
+                }
+            }
+        }
+    }
 }
