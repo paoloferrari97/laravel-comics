@@ -28,6 +28,10 @@
         <p class="description">
             {{$comic['description']}}
         </p>
+
+        <div class="adv">
+            <img src="{{asset('img/adv.jpg')}}" alt="adv">
+        </div>
     </div>
 </div>
 
