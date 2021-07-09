@@ -27,7 +27,10 @@
     <div class="sezione_bianca">
         <div class="container">
             <img src="{{asset('img/dc-logo.png')}}" alt="DC logo">
-            <a href="{{route('Characters')}}" class="{{Route::currentRouteName() === 'Characters' ? 'active' : ''}}">CHARACTERS<div></div></a>
+            @foreach ($menu as $item)
+            <a href="{{route($item)}}" class="{{Route::currentRouteName() === $item ? 'active' : ''}}">{{$item}}<div></div></a>
+            @endforeach
+            {{-- <a href="{{route('Characters')}}" class="{{Route::currentRouteName() === 'Characters' ? 'active' : ''}}">CHARACTERS<div></div></a>
             <a href="{{route('Comics')}}" class="{{Route::currentRouteName() === 'Comics' ? 'active' : ''}}">COMICS<div></div></a>
             <a href="{{route('Movies')}}" class="{{Route::currentRouteName() === 'Movies' ? 'active' : ''}}">MOVIES<div></div></a>
             <a href="{{route('Tv')}}" class="{{Route::currentRouteName() === 'Tv' ? 'active' : ''}}">TV<div></div></a>
@@ -36,7 +39,7 @@
             <a href="{{route('Videos')}}" class="{{Route::currentRouteName() === 'Videos' ? 'active' : ''}}">VIDEOS<div></div></a>
             <a href="{{route('Fans')}}" class="{{Route::currentRouteName() === 'Fans' ? 'active' : ''}}">FANS<div></div></a>
             <a href="{{route('News')}}" class="{{Route::currentRouteName() === 'News' ? 'active' : ''}}">NEWS<div></div></a>
-            <a href="{{route('Shop')}}" class="{{Route::currentRouteName() === 'Shop' ? 'active' : ''}}">SHOP<i class="fas fa-caret-down"></i><div></div></a>
+            <a href="{{route('Shop')}}" class="{{Route::currentRouteName() === 'Shop' ? 'active' : ''}}">SHOP<i class="fas fa-caret-down"></i><div></div></a> --}}
             <div>
                 <input type="text" id="search" name="search" placeholder="Search">
                 <i class="fas fa-search"></i>

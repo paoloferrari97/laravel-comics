@@ -44,6 +44,7 @@ header .sezione_bianca .container {
 header .sezione_bianca .container a {
   font-weight: 600;
   text-decoration: none;
+  text-transform: uppercase;
   color: black;
   height: 100%;
   display: flex;

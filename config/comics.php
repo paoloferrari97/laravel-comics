@@ -213,5 +213,17 @@ return [
                 "Joëlle Jones"
             ],
         ]
+    ],
+    'menu' => [
+        'Characters',
+        'Comics',
+        'Movies',
+        'Tv',
+        'Games',
+        'Collectibles',
+        'Videos',
+        'Fans',
+        'News',
+        'Shop'
     ]
 ];
