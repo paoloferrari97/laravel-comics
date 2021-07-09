@@ -352,3 +352,35 @@ footer .seconda_sez_footer .container > a {
 .sez_grigia_comic .container2 .talent_specs > div > div .first {
   width: 250px;
 }
+
+.icone {
+  border-top: 1px solid lightgray;
+  background-color: #f6f6f6;
+}
+.icone .container2 {
+  display: flex;
+}
+.icone .container2 > div {
+  width: 25%;
+  height: 70px;
+  position: relative;
+  border-left: 1px solid lightgray;
+}
+.icone .container2 > div:last-child {
+  border-right: 1px solid lightgray;
+}
+.icone .container2 > div > span {
+  position: relative;
+  top: 15px;
+  left: 15px;
+  font-size: 12px;
+  color: gray;
+}
+.icone .container2 > div > img {
+  height: 40px;
+  position: absolute;
+  right: 10px;
+  top: 50%;
+  transform: translateY(-50%);
+  filter: invert(50%);
+}

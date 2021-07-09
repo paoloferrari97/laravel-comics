@@ -112,3 +112,34 @@
         }
     }
 }
+.icone {
+    border-top: 1px solid lightgray;
+    background-color: #f6f6f6;
+    .container2 {
+        display: flex;
+        > div {
+            width: 25%;
+            height: 70px;
+            position: relative;
+            border-left: 1px solid lightgray;
+            &:last-child {
+                border-right: 1px solid lightgray;
+            }
+            > span {
+                position: relative;
+                top: 15px;
+                left: 15px;
+                font-size: 12px;
+                color: gray;
+            }
+            > img {
+                height: 40px;
+                position: absolute;
+                right: 10px;
+                top: 50%;
+                transform: translateY(-50%);
+                filter: invert(50%);
+            }
+        }
+    }
+}
