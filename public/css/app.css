@@ -248,13 +248,14 @@ footer .seconda_sez_footer .container > a {
   font-size: 12px;
 }
 
+.container2 {
+  width: 60%;
+  margin: auto;
+}
+
 .sez_blu_comic {
   background-color: #0282f9;
   height: 70px;
-}
-.sez_blu_comic .container2 {
-  width: 60%;
-  margin: auto;
 }
 .sez_blu_comic .container2 > div {
   display: inline-block;
@@ -281,4 +282,34 @@ footer .seconda_sez_footer .container > a {
   background-color: #00a9dc;
   font-size: 13px;
   padding: 3px 0;
+}
+
+.sez_bianca_comic .container2 h2 {
+  text-transform: uppercase;
+  margin-top: 50px;
+}
+.sez_bianca_comic .container2 .sez_verde_prezzo {
+  margin-top: 30px;
+  display: flex;
+}
+.sez_bianca_comic .container2 .sez_verde_prezzo > div:first-child {
+  display: flex;
+  background-color: #55ba59;
+  justify-content: space-between;
+  align-items: center;
+  width: 500px;
+  border-right: 1px solid black;
+  color: #a7f98f;
+  padding: 15px 35px;
+}
+.sez_bianca_comic .container2 .sez_verde_prezzo > div:first-child > span > span {
+  color: white;
+}
+.sez_bianca_comic .container2 .sez_verde_prezzo > div:nth-child(2) {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  color: white;
+  background-color: #55ba59;
+  padding: 15px 35px;
 }

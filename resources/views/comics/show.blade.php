@@ -12,4 +12,19 @@
     </div>
 </div>
 
+<div class="sez_bianca_comic">
+    <div class="container2">
+        <h2>{{$comic['title']}}</h2>
+        <div class="sez_verde_prezzo">
+            <div>
+                <span>U.S. Price: <span>{{$comic['price']}}</span></span>
+                <span>AVAILABLE</span>
+            </div>
+            <div>
+                Check Availability <i class="fas fa-caret-down"></i>
+            </div>
+        </div>
+    </div>
+</div>
+
 @endsection
