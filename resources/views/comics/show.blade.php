@@ -30,6 +30,7 @@
         </p>
 
         <div class="adv">
+            <h5>ADVERTISEMENT</h5>
             <img src="{{asset('img/adv.jpg')}}" alt="adv">
         </div>
     </div>
